@@ -41,8 +41,8 @@ Below is a list of even and odd numbers. Can you write a block of code that loop
 '''
 numbers = [0,1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-for x in range (1,10):
-      if x % 2 == 0:
-          print("even")
-      else:   
-          print("odd")
+for x in numbers:
+    if x % 2 == 0:
+        print(f" {x} even")
+    else:   
+        print(f"{x} odd")
