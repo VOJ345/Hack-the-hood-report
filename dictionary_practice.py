@@ -57,4 +57,7 @@ shoe_inventory["Vans"] = 2
 shoe_inventory["Aldo"] = 1
 print(shoe_inventory) 
 
-
+#delete keys from a dictionary
+del shoe_inventory["Nike"]
+del shoe_inventory["Jordan 13"]
+print(shoe_inventory)
